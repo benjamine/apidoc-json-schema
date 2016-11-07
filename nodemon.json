@@ -1,0 +1,12 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules",
+    "**/*.marko.js",
+    "output/*"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js jsx json scss marko"
+}

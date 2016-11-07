@@ -1,0 +1,34 @@
+{
+  "name": "apidoc-json-schema",
+  "version": "0.0.1",
+  "description": "generate json schema from apidoc.json",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "micro -p ${PORT:-3000}",
+    "live": "nodemon --exec \"npm start\"",
+    "test": "echo \"no test specified\"",
+    "now": "now"
+  },
+  "keywords": [
+    "apidoc",
+    "json",
+    "json-schema",
+    "schema",
+    "api"
+  ],
+  "author": "Benjamin Eidelman <beneidel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.16.6",
+    "micro": "^6.1.0",
+    "pluralize": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.9.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "nodemon": "^1.11.0",
+    "now": "^0.28.0"
+  }
+}
